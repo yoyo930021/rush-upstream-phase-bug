@@ -1,0 +1,15 @@
+lockfileVersion: 5.3
+
+importers:
+
+  .:
+    specifiers: {}
+
+  ../../packages/project:
+    specifiers:
+      upstream: workspace:*
+    dependencies:
+      upstream: link:../upstream
+
+  ../../packages/upstream:
+    specifiers: {}

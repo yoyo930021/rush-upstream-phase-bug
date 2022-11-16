@@ -1,0 +1,8 @@
+{
+  "name": "upstream",
+  "version": "0.0.1",
+  "scripts": {
+    "_phase:build": "echo build",
+    "_phase:lint": "echo lint"
+  }
+}
